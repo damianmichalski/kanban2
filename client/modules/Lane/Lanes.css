@@ -1,0 +1,9 @@
+.Lanes {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    height: 70vh;
+}

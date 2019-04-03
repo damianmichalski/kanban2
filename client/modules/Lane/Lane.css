@@ -1,0 +1,39 @@
+/* Lane styles */
+.Lane {
+    padding: 0 10px;
+    width: 33%;
+    height: 100%;
+    border-left: 3px solid #686de0;
+    border-right: 3px solid #686de0;
+}
+
+.LaneHeader {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #95afc0;
+}
+
+.ButtonsContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.LaneButton {
+    padding: 5px 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 3px solid  #686de0;
+    font: bold 11px Verdana, sans-serif;
+    color: #30336b;
+    background-color: transparent;
+}
+
+.LaneButton:hover {
+    cursor: pointer;
+}

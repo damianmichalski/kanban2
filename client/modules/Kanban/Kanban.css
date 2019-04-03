@@ -1,0 +1,33 @@
+/* Kanban styles */
+.KanbanContainer {
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+    height: 80vh;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 2px 8px 10px rgba(0,0,0,0.25); 
+    display: -webkit-flex;
+    display: flex;
+    
+}
+
+.AddLane {
+    padding: 5px 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 3px solid #95afc0;
+    font: bold 11px Verdana, sans-serif;
+    color: #30336b;
+    background-color: transparent;
+}
+
+.AddLane:hover {
+    cursor: pointer;
+}
+
